@@ -1,0 +1,62 @@
+/* GLOBALNE STYLE  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.hidden {
+  display: none; }
+
+.center {
+  text-align: center;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  transition: .5s all; }
+
+/* KONIEC GLOBALNE STYLE  */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg1.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 80px; }
+  .wrapper .login-box, .wrapper .register-box {
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px; }
+    .wrapper .login-box h1, .wrapper .register-box h1 {
+      margin: 0;
+      font-size: 35px;
+      padding: 50px 0 40px 0;
+      text-align: center;
+      font-family: 'Roboto', sans-serif; }
+    .wrapper .login-box input, .wrapper .register-box input {
+      width: 80%;
+      display: block;
+      margin: 0 auto; }
+      .wrapper .login-box input::-webkit-input-placeholder, .wrapper .register-box input::-webkit-input-placeholder {
+        color: #000; }
+      .wrapper .login-box input:-ms-input-placeholder, .wrapper .register-box input:-ms-input-placeholder {
+        color: #000; }
+      .wrapper .login-box input::-ms-input-placeholder, .wrapper .register-box input::-ms-input-placeholder {
+        color: #000; }
+      .wrapper .login-box input::placeholder, .wrapper .register-box input::placeholder {
+        color: #000; }
+    .wrapper .login-box .btn, .wrapper .register-box .btn {
+      margin: 40px auto;
+      display: block; }
+    .wrapper .login-box h2, .wrapper .register-box h2 {
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: 40px; }

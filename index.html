@@ -1,0 +1,36 @@
+<html>
+ <head>
+ <title>Login Panel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<link href="css/materialize.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+
+</head>
+ <body>
+
+    <div class="wrapper">
+        <div class="login-box">
+            <h1>Panel Logowania</h1>
+            <input id="loginVerify" type="text" placeholder="Login">
+            <input id="passwordVerify" type="password" value="" placeholder="Password">
+            <button class="waves-effect waves-light btn" id="login-btn">Zaloguj się</button>
+            <div id="success" class="hidden center">Zalogowany</div>
+            <div id="fail" class="hidden center">Brak użytkownika, lub błędne hasło</div>
+            <h2>Nie masz konta? <br><a href="./register.html" >Zarejestruj się </a></h2>
+        </div>
+      
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/materialize.min.js"></script>
+ <script src="js/main.js"></script>
+
+
+ </body>
+</html>
